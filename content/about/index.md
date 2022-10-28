@@ -165,14 +165,14 @@ You can also message me directly via the contact form below:
       margin-bottom: 10px;
       border: 1px solid #1c87c9;
       outline: none;
-      caret-color: var(--global-font-color);
+      caret-color: #161209;
       color: var(--global-font-color);
       }
       input::placeholder {
-      color: var(--global-font-secondary-color);
+      color: var(--global-font-color);
       }
       textarea::placeholder {
-      color: var(--global-font-secondary-color);
+      color: var(--global-font-color);
       }
 
       .form-submit {
