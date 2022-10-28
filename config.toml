@@ -31,7 +31,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     weight = 1
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
-    pre = "<i class='fas fa-newspaper fa-fw' aria-hidden='true'></i>&nbsp;"
+    # pre = "<i class='fas fa-newspaper fa-fw' aria-hidden='true'></i>&nbsp;"
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
     name = "Blog"
@@ -41,7 +41,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
   [[menu.main]]
     weight = 3
     identifier = "now"
-    pre = "<i class='fas fa-pager fa-fw' aria-hidden='true'></i>&nbsp;"
+    # pre = "<i class='fas fa-pager fa-fw' aria-hidden='true'></i>&nbsp;"
     post = ""
     name = "Now"
     url = "/now/"
@@ -49,7 +49,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
   [[menu.main]]
     weight = 4
     identifier = "impossible-list"
-    pre = "<i class='fas fa-flag-checkered fa-fw' aria-hidden='true'></i>&nbsp;"
+    # pre = "<i class='fas fa-flag-checkered fa-fw' aria-hidden='true'></i>&nbsp;"
     post = ""
     name = "Impossible List"
     url = "/impossible-list/"
@@ -57,7 +57,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
   [[menu.main]]
     weight = 7
     identifier = "tags"
-    pre = "<i class='fas fa-hashtag fa-fw' aria-hidden='true'></i>&nbsp;"
+    # pre = "<i class='fas fa-hashtag fa-fw' aria-hidden='true'></i>&nbsp;"
     post = ""
     name = "Tags"
     url = "/tags/"
@@ -65,7 +65,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
   [[menu.main]]
     weight = 8
     identifier = "categories"
-    pre = "<i class='fas fa-folder fa-fw' aria-hidden='true'></i>&nbsp;"
+    # pre = "<i class='fas fa-folder fa-fw' aria-hidden='true'></i>&nbsp;"
     post = ""
     name = "Categories"
     url = "/categories/"
@@ -73,7 +73,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
   [[menu.main]]
     weight = 2
     identifier = "about"
-    pre = "<i class='fas fa-user fa-fw' aria-hidden='true'></i>&nbsp;"
+    # pre = "<i class='fas fa-user fa-fw' aria-hidden='true'></i>&nbsp;"
     post = ""
     name = "About"
     url = "/about/"
@@ -109,7 +109,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
   # Footer config
   [params.footer]
     enable = true                   # Custom content (HTML format is supported)
-    custom = "<a rel='external nofollow noopener noreffer' href='https://github.com/jskherman/loveit-jsk' target='_blank'>Open-Sourced</a> <i class='far fa-thumbs-up fa-fw' aria-hidden='true'> </i> · <a href='/terms-of-service-agreement'>Terms of Service</a> · <a href='/privacy-policy'>Privacy Policy</a>"
+    custom = "<a rel='external nofollow noopener noreffer' href='https://github.com/dillonzq/LoveIt' target='_blank'>Open-Sourced</a> <i class='far fa-thumbs-up fa-fw' aria-hidden='true'> </i> · <a href='/privacy-policy'>Privacy Policy</a>"
     hugo = true                     # whether to show Hugo and theme info
     copyright = true                # whether to show copyright info
     author = true                   # whether to show the author
@@ -121,13 +121,13 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
   [params.section]
     paginate = 20                   # special amount of posts in each section page
     dateFormat = "Jan 02"            # date format (month and day)
-    rss = 10                        # amount of RSS pages
+    rss = 20                        # amount of RSS pages
 
   # List (category or tag) page config
   [params.list]
     paginate = 20                   # special amount of posts in each list page    
     dateFormat = "01-02"            # date format (month and day)
-    rss = 10                        # amount of RSS pages
+    rss = 20                        # amount of RSS pages
 
   # App icon config
   [params.app]
@@ -155,7 +155,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
 
   # Home page config
   [params.home]
-    rss = 10                            # amount of RSS pages
+    rss = 20                            # amount of RSS pages
     # Home page profile
     [params.home.profile]
       enable = true
@@ -181,7 +181,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     GitHub = "jskherman"
     Linkedin = "jskherman"
     Twitter = "jskherman"
-    Instagram = "jskherman"
+    Instagram = ""
     Facebook = ""
     Telegram = ""
     Medium = ""
@@ -195,7 +195,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     Pinterest = ""
     Reddit = ""
     Codepen = ""
-    FreeCodeCamp = ""
+    FreeCodeCamp = "jskherman"
     Bitbucket = ""
     Stackoverflow = ""
     Weibo = ""
@@ -207,7 +207,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     Soundcloud = ""
     Spotify = ""
     Bandcamp = ""
-    Paypal = ""
+    Paypal = "jskherman"
     Fivehundredpx = ""
     Mix = ""
     Goodreads = ""
@@ -494,7 +494,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     [params.cookieconsent.content]
       message = ""
       dismiss = "Accept"
-      link = ""
+      link = "<a href='/privacy-policy/'>Learn More</a>"
 
   # CDN config for third-party library files
 #   [params.cdn]
