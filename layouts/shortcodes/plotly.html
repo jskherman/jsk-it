@@ -1,0 +1,13 @@
+{{ $json := .Get "json" }}
+{{ $height := .Get "height" | default "400px" }}
+<div id="{{$json}}" class="plotly" style="height:{{$height}}"></div>
+<script>
+    Plotly.d3.json({{ $json }}, function (err, fig) {
+        Plotly.plot('{{$json}}', fig.data, fig.layout, { responsive: true });
+    });
+</script>
+<!-- Hugo will only add this script if the page has {{/*< load-plotly >*/}} shortcode in the page -->
+<!-- Also need to give shortcode {{/*< plotly json="/plotly/plot-name.json" >*/}} to render the plot -->
+<!-- Don't forget to remove the /* */ in the shortcodes before saving -->
+<!-- The json file must be in the /static/plotly/ folder for it to render -->
+<!-- You can create a json file with the command fig.write_json("plot_name.json") -->

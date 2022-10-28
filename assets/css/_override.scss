@@ -1,0 +1,33 @@
+// ==============================
+// Override Variables
+// ==============================
+
+// USAGE
+
+@import "_custom.css";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@0;1&family=Crimson+Pro:ital@0;1&family=JetBrains+Mono:ital@0;1&display=swap;&subset=latin-ext');
+
+$global-font-family: 'Crimson Pro', Georgia, serif;
+$global-font-size: 1.3rem;
+$header-title-font-family: 'Atkinson Hyperlegible';
+$code-font-family: 'JetBrains Mono', 'Source Code Pro', Menlo, Consolas, Monaco;
+$code-font-size: 0.7rem;
+
+// Spacing
+$global-line-height: 1.3rem;
+
+
+// Colors
+$global-link-hover-color: #00bd6e; // #25e417
+$global-link-hover-color-dark: #ef6ba0; // #00e384; // #23fe12
+
+$single-link-color: #ef6ba0; // #26a5cc
+$single-link-color-dark: #00e384; // #49b9db
+
+$single-link-hover-color: #00bd6e;
+$single-link-hover-color-dark: #ef6ba0; // #00e384;
+
+$blockquote-color: #00bd6e;
+$blockquote-color-dark: #ef6ba0; // #00e384;
