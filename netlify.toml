@@ -11,7 +11,10 @@
 
 
 # URL Redirects
-[[redirects]]
+# [[redirects]]
+#   from    = "/*"
+#   to      = "/404/"
+#   status  = 404
 
 # Security Headers
 [[headers]]
