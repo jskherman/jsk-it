@@ -3,3 +3,31 @@
 .single .content p {
     margin: 0.5rem 0 1.1rem 0;
 }
+
+// .single .content h2,
+// h3,
+// h4 {
+//     font-family: $header-title-font-family;
+// }
+
+.summary h1 {
+    font-family: $header-title-font-family;
+}
+
+.home-profile h1 {
+    font-family: $header-title-font-family;
+}
+
+.single .post-meta .author,
+.single .post-meta a {
+    font-family: $header-title-font-family;
+    font-size: 0.875rem;
+}
+
+.single .post-footer .post-tags {
+    max-width: 99%;
+}
+
+.single .single-title {
+    font-family: $header-title-font-family;
+}
