@@ -8,7 +8,7 @@ draft:
 	hugo && netlify deploy --dir=public
 
 deploy:
-	make ref && make clean && netlify build --context production && netlify deploy --dir=public --prod
+	make clean && netlify build --context production && netlify deploy --dir=public --prod
 
 clean:
 	rmdir /Q /S public
