@@ -180,6 +180,7 @@
                 data-page-id="{{- .File.BaseFileName -}}"
                 data-page-url="{{- .Page.Permalink -}}"
                 data-page-title="{{- .Page.Title -}}"
+                data-theme="auto"
             ></div>
             {{- dict "Source" "https://cusdis.com/js/cusdis.es.js" "Defer" true | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
             <noscript>
