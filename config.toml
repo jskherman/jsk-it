@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://www.jskherman.com"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -332,7 +332,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     
     # Comment config
     [params.page.comment]
-      enable = false
+      enable = true
 
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
@@ -408,7 +408,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
       # giscus comment config (https://giscus.app/)
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
-        enable = true #true
+        enable = false #true
         repo = "jskherman/jskit"
         repoId = "R_kgDOHbjb-A"
         category = "Comments"
@@ -422,6 +422,21 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
         lazyLoading = true
         lightTheme = "light"
         darkTheme = "dark"
+    
+      # Cactus Comments comment config (https://cactus.chat/)
+      [params.page.comment.cactus]
+        enable = false
+        # defaultHomeserverUrl = "matrix.cactus.chat:8448"
+        # serverName = "cactus.chat"
+        # siteName = "jskherman02"
+        # commentSectionId = "comments"
+
+      # Cactus Comments comment config (https://cactus.chat/)
+      [params.page.comment.cusdis]
+        enable = true
+        dataHost = "cusdis.com"
+        dataAppID = "f1777b62-b841-497d-81f8-face34f5e63c"
+      
     
     # Third-party library config
     [params.page.library]
