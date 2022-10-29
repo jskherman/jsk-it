@@ -81,7 +81,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
 
 [params]
   defaultTheme = "auto"                                 # site default theme ["auto", "light", "dark"]
-  # gitRepo = "https://github.com/jskherman/loveit-jsk"   # public git repo url only then enableGitInfo is true
+  # gitRepo = "https://github.com/jskherman/jsk-it"       # public git repo url only then enableGitInfo is true
   # fingerprint = ""                                      # which hash function used for SRI, when empty, no SRI is used
                                                         # ["sha256", "sha384", "sha512", "md5"]
   dateFormat = "2006-01-02"                             # Date format
@@ -162,7 +162,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""                
       # URL of avatar shown in home page
-      avatarURL = "avatar.png"
+      avatarURL = "avatar.webp"
       # title shown in home page (HTML format is supported)
       title = "Je Sian Keith Herman"                        
       # subtitle shown in home page (HTML format is supported)
@@ -456,7 +456,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
       # Publisher info
       [params.page.seo.publisher]
         name = "Je Sian Keith Herman"
-        logoUrl = "avatar.png"
+        logoUrl = "avatar.webp"
 
   # TypeIt config
   [params.typeit]

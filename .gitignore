@@ -16,6 +16,7 @@ hugo_stats.json
 *.jpeg
 *.jfif
 *.webm
+*.webp
 
 # Executable may be added to repository
 hugo.exe

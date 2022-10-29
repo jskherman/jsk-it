@@ -5,7 +5,7 @@ description: "In this post we will be scraping the historical lottery data for v
 author: "Je Sian Keith Herman"
 date: 2021-08-05T00:00:00+08:00
 lastmod: 2022-05-09T00:00:00+08:00
-featuredImage: "/img/lottery-waldemar-brandt-unsplash_csypd6.jpg"
+featuredImage: "/img/webp/lottery-waldemar-brandt-unsplash_banner.webp"
 lightgallery: true
 linkToMarkdown: true
 # toc:
@@ -90,7 +90,7 @@ Now that the wait is over let us now proceed to entering our parameters in the A
 
 Tip: To inspect the dropdown menu, right-click on it and navigate to "Developer Tools" and select "Inspect" (or press `F12`). We then get the value inside of the `id` parameter.
 
-{{< image src="/img/search-lotto_lble83.png" alt="The Search Lotto Form" caption="The Search Lotto Form" >}}
+{{< image src="/img/webp/search-lotto_lble83.webp" alt="The Search Lotto Form" caption="The Search Lotto Form" >}}
 
 We want the end date to be today to get the latest data from all the games and the start date to be the earliest possible option which is `January 1, 2012` in the dropdown menu. As for the lotto game we want all games. We will just split the data up later into smaller dataframes using pandas for each lotto game, so that we only need to scrape the website every time we want to update our data. But first get today's date which will be used later.
 
