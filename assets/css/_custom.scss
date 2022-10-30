@@ -4,15 +4,17 @@
     margin: 0.5rem 0 1.1rem 0;
 }
 
-// .single .content h2,
-// h3,
-// h4 {
-//     font-family: $header-title-font-family;
-// }
+.single .content :is(h2, h3, h4, h5, h6) {
+    font-family: $header-title-font-family;
+    letter-spacing: 0.03rem;
+}
 
+.single .single-title,
 .summary h1 {
     font-family: $header-title-font-family;
+    letter-spacing: 0.03rem;
 }
+
 
 .home-profile h1 {
     font-family: $header-title-font-family;
@@ -21,13 +23,11 @@
 .single .post-meta .author,
 .single .post-meta a {
     font-family: $header-title-font-family;
-    font-size: 0.875rem;
+    font-size: 0.8rem;
 }
+
+
 
 .single .post-footer .post-tags {
     max-width: 99%;
-}
-
-.single .single-title {
-    font-family: $header-title-font-family;
 }

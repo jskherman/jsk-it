@@ -7,8 +7,9 @@
                     {{- safeHTML . -}}
                 </div>
             {{- end -}}
-
-            <!-- {{- /* Hugo and LoveIt */ -}}
+            
+            <!--
+            {{- /* Hugo and LoveIt */ -}}
             {{- if ne .Site.Params.footer.hugo false -}}
                 <div class="footer-line">
                     {{- $hugo := printf `<a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo %v">Hugo</a>` hugo.Version -}}
@@ -24,7 +25,7 @@
                     <i class="far fa-copyright fa-fw" aria-hidden="true"></i>
                     {{- with .Site.Params.footer.since -}}
                         <span itemprop="copyrightYear">
-                            {{- if lt . now.Year }}{{ . }} - {{ end }}{{ now.Year -}}
+                            {{- if lt . now.Year }}{{ . }}–{{ end }}{{ now.Year -}}
                         </span>
                     {{- else -}}
                         <span itemprop="copyrightYear">{{ now.Year }}</span>
@@ -33,7 +34,7 @@
 
                 {{- /* Author */ -}}
                 {{- if ne .Site.Params.footer.author false -}}
-                    <span class="author" itemprop="copyrightHolder">&nbsp;<a href="{{ $.Site.Author.link | default .Site.Home.RelPermalink }}" target="_blank">{{ .Site.Author.name }}</a></span>
+                    <span class="author" itemprop="copyrightHolder">&nbsp;&nbsp;by&nbsp;&nbsp;<a href="{{ $.Site.Author.link | default .Site.Home.RelPermalink }}" target="_blank">{{ .Site.Author.name }}</a></span>
                 {{- end -}}
 
                 {{- /* License */ -}}

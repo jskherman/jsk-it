@@ -109,13 +109,13 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
   # Footer config
   [params.footer]
     enable = true                   # Custom content (HTML format is supported)
-    custom = "<a rel='external nofollow noopener noreffer' href='https://github.com/dillonzq/LoveIt' target='_blank'>Open-Sourced</a> <i class='far fa-thumbs-up fa-fw' aria-hidden='true'> </i> · <a href='/privacy-policy'>Privacy Policy</a>"
+    custom = 'Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo">Hugo</a> — Theme: <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt">LoveIt</a> — <a href="/privacy-policy">Privacy Policy</a>'
     hugo = true                     # whether to show Hugo and theme info
     copyright = true                # whether to show copyright info
     author = true                   # whether to show the author
     since = 2020                    # site creation time
     # license info (HTML format is supported)
-    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license = '' #'<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
   # Section (all posts) page config
   [params.section]
