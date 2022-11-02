@@ -541,6 +541,14 @@ kofi:
 
 # 098: Link
 link:
+  Weight: 69
+  Prefix: https://www.16personalities.com/profiles/
+  Title: MBTI
+  Icon:
+    Class: far fa-person-from-portal fa-fw
+
+# 098: Link
+link:
   Weight: 98
   Prefix: 
   Title: VNDB
