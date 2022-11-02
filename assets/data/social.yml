@@ -539,18 +539,18 @@ kofi:
   Icon:
     Simpleicons: kofi
 
-# 098: Link
-link:
-  Weight: 69
+# 097: MBTI
+mbti:
+  Weight: 97
   Prefix: https://www.16personalities.com/profiles/
   Title: MBTI
   Icon:
-    Class: far fa-person-from-portal fa-fw
+    Class: fas fa-person-circle-question fa-fw
 
 # 098: Link
 link:
   Weight: 98
-  Prefix: 
+  Prefix:
   Title: VNDB
   Icon:
     Class: fab fa-galactic-republic fa-fw
