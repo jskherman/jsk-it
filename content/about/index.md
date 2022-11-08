@@ -20,7 +20,7 @@ I'm passionate about data, data visualization, and programming. I am a data-driv
 
 I am also interested in creating visualizations to communicate my findings. I am a self-taught programmer (not quite there yet though) and I enjoy creating scripts in my free time to automate tasks and to make my work more efficient.[^1]
 
-This is the place where I share my thoughts, tools, interests, projects, showcases, experiences, etc. Check out the [blog](/blog.qmd) for some of it. *Feel free to [ping me or give feedback](#contact-me)* through any of my contact details.
+This is the place where I share my thoughts, tools, interests, projects, showcases, experiences, etc. Check out the [blog](https://www.jskherman.com/blog) for some of it. *Feel free to [ping me or give feedback](#contact-me)* through any of my contact details.
 
 > If you're looking for what I am up to these days, check out my **[Now page](/now)**.
 
