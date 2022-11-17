@@ -539,6 +539,14 @@ kofi:
   Icon:
     Simpleicons: kofi
 
+# 096: Bear Blog
+bearblog:
+  Weight: 96
+  Prefix:
+  Title: Bear Blog
+  Icon:
+    Class: fas fa-pen-to-square fa-fw
+
 # 097: MBTI
 mbti:
   Weight: 97
