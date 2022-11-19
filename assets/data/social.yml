@@ -539,11 +539,11 @@ kofi:
   Icon:
     Simpleicons: kofi
 
-# 096: Bear Blog
-bearblog:
+# 096: Notes - Glasp
+glasp:
   Weight: 96
   Prefix:
-  Title: Bear Blog
+  Title: Glasp
   Icon:
     Class: fas fa-pen-to-square fa-fw
 
