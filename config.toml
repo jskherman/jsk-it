@@ -46,14 +46,14 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     name = "Now"
     url = "/now/"
     title = "The Now Page"
-  [[menu.main]]
-    weight = 4
-    identifier = "impossible-list"
-    # pre = "<i class='fas fa-flag-checkered fa-fw' aria-hidden='true'></i>&nbsp;"
-    post = ""
-    name = "Impossible List"
-    url = "/impossible-list/"
-    title = "Impossible List"
+  # [[menu.main]]
+  #   weight = 4
+  #   identifier = "impossible-list"
+  #   # pre = "<i class='fas fa-flag-checkered fa-fw' aria-hidden='true'></i>&nbsp;"
+  #   post = ""
+  #   name = "Impossible List"
+  #   url = "/impossible-list/"
+  #   title = "Impossible List"
   [[menu.main]]
     weight = 7
     identifier = "tags"
@@ -207,7 +207,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     Soundcloud = ""
     Spotify = ""
     Bandcamp = ""
-    Paypal = "jskherman"
+    Paypal = "" 
     Fivehundredpx = ""
     Mix = ""
     Goodreads = ""
@@ -233,7 +233,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     Vine = ""
     Googlescholar = ""
     Researchgate = ""
-    Mastodon = "https://social.vivaldi.net/@jskherman"
+    Mastodon = ""
     Thingiverse = ""
     Devto = ""
     Gitea = ""
@@ -246,7 +246,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     ORCID = "" #"0000-0002-3281-1292"
     Pleroma = ""
     Kofi = "" #"jskherman"
-    Glasp = "https://glasp.co/#/jskherman" #"https://jskherman.bearblog.dev"
+    Glasp = "" #"https://glasp.co/#/jskherman"  #"https://jskherman.bearblog.dev"
     MBTI = "672b5e6d1fea7"
     Link = "https://vndb.org/u216922"
     Email = ""
