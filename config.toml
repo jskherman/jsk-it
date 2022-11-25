@@ -37,7 +37,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     name = "Blog"
     url = "/posts/"
     # title will be shown when you hover on this menu link
-    title = "My Blog Posts"
+    title = "Archive of Blog Posts"
   [[menu.main]]
     weight = 3
     identifier = "now"
@@ -45,7 +45,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     post = ""
     name = "Now"
     url = "/now/"
-    title = "The Now Page"
+    title = "Status Update"
   # [[menu.main]]
   #   weight = 4
   #   identifier = "impossible-list"
@@ -61,7 +61,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     post = ""
     name = "Tags"
     url = "/tags/"
-    title = ""
+    title = "Tags"
   [[menu.main]]
     weight = 8
     identifier = "categories"
@@ -69,9 +69,9 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     post = ""
     name = "Categories"
     url = "/categories/"
-    title = ""
+    title = "Categories"
   [[menu.main]]
-    weight = 2
+    weight = 9
     identifier = "about"
     # pre = "<i class='fas fa-user fa-fw' aria-hidden='true'></i>&nbsp;"
     post = ""
@@ -166,7 +166,8 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
       # title shown in home page (HTML format is supported)
       title = "Je Sian Keith Herman"                        
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "<i>Your man, His man, Herman.</i>"
+      subtitle = "<i>Your man, His man, Herman.</i>" # See subtitle.txt
+
       typeit = true                     # whether to use typeit animation for subtitle
       social = true                     # whether to show social links
       disclaimer = ""                   # disclaimer (HTML format is supported)
