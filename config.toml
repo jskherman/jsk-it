@@ -267,7 +267,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     
     # Table of the contents config
     [params.page.toc]
-      enable = true                     # whether to enable the table of the contents
+      enable = false                    # whether to enable the table of the contents
       keepStatic = false                # whether to keep the static table of the contents in front of the post
       auto = true                       # whether to make the table of the contents in the sidebar automatically collapsed
     

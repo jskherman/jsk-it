@@ -7,8 +7,10 @@ date: 2022-11-10T00:00:00+08:00
 lastmod: 2022-11-10T00:00:00+08:00
 featuredImage: 
 # lightgallery: true
-# toc:
-#   auto: false
+toc:
+    enable: true
+    # keepStatic: true
+    auto: true
 categories: ["Code"]
 tags: ["books", "math", "TIL"]
 ---

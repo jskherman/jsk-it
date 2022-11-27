@@ -7,8 +7,10 @@ date: 2021-07-17T00:00:00+08:00
 lastmod: 2021-07-17T00:00:00+08:00
 featuredImage: "/img/webp/tasks-glenn-carstens-peters-unsplash_banner.webp"
 lightgallery: true
-# toc:
-#   auto: false
+toc:
+    enable: true
+    # keepStatic: true
+    auto: true
 categories: ["How To"]
 tags: ["learning how to learn", "books", "workflow", "note-taking", "spaced repetition", "study"]
 ---

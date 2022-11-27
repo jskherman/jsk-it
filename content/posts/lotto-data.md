@@ -8,8 +8,10 @@ lastmod: 2022-05-09T00:00:00+08:00
 featuredImage: "/img/webp/lottery-waldemar-brandt-unsplash_banner.webp"
 lightgallery: true
 linkToMarkdown: true
-# toc:
-#   auto: false
+toc:
+    enable: true
+    # keepStatic: true
+    auto: true
 categories: ["Code", "How To"]
 tags: ["web scraping", "Microsoft Excel", "python", "selenium", "lottery"]
 ---
