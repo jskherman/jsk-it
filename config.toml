@@ -175,7 +175,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     # Home page posts
     [params.home.posts]
       enable = true
-      paginate = 6                      # special amount of posts in each home posts page
+      paginate = 4                      # special amount of posts in each home posts page
   
   # Social config in home page
   [params.social]
