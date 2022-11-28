@@ -51,7 +51,7 @@ This is the place where I share my thoughts, tools, interests, projects, showcas
 
 ## Contact Me
 
-Want to have a chat with me? Feel free to drop a DM. :smile:
+Want to have a chat with me? Feel free to drop a DM.
 
 These are the platforms[^3] you can find me on:
 
