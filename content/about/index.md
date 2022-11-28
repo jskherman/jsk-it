@@ -1,6 +1,6 @@
 ---
 title: "About"
-subtitle: "Who am I? Ooh, how philosophical of you."
+subtitle: "Who am I? How philosophical of you."
 description: "About Je Sian Keith Herman. This section details what he does & everything else you might want to know about him."
 slug: "about"
 date: 2020-02-02T00:02:02+08:00
