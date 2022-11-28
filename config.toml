@@ -109,7 +109,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
   # Footer config
   [params.footer]
     enable = true                   # Custom content (HTML format is supported)
-    custom = 'Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo">Hugo</a> — Theme: <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt">LoveIt</a> — <a href="/privacy-policy">Privacy Policy</a>'
+    custom = 'Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo"><u>Hugo</u></a> — Theme: <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt"><u>LoveIt</u></a> — <a href="/privacy-policy"><u>Privacy Policy</u></a>'
     hugo = true                     # whether to show Hugo and theme info
     copyright = true                # whether to show copyright info
     author = true                   # whether to show the author
