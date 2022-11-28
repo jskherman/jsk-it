@@ -9,7 +9,6 @@ draft:
 
 deploy:
 	netlify build --context production && netlify deploy --dir=public --prod
-	# make clean && netlify build --context production && netlify deploy --dir=public --prod
 
 clean:
 	rmdir /Q /S public
