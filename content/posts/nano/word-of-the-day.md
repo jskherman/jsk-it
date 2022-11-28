@@ -19,7 +19,7 @@ I recently read Simon Willison's blog post: "[What to blog about](https://simonw
 
 Every day, we learn a lot but most of it is not useful to share. We have our projects but for me they are something seldom done. Not to be antagonistic, I do like the idea. I find it to be a valuable insight.
 
-However, I believe the [#TIL](/tags/til/) is not a good prompt for very frequent blogging (at least not for me). Thus, I thought why not work with serendipity? To work with the diffuse mode of our brain? To allow ourselves freedom in our writing, to play and tinker with our prose?
+However, I believe the [#TIL](/categories/til/) is not a good prompt for very frequent blogging (at least not for me). Thus, I thought why not work with serendipity? To work with the diffuse mode of our brain? To allow ourselves freedom in our writing, to play and tinker with our prose?
 
 Ergo: **Word of the Day prompts**.
 
