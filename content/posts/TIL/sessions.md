@@ -32,7 +32,7 @@ I make extensive use of the Sessions feature in order to separate different work
 
 Previously, without this extension I have been making use of the built-in collections feature of Microsoft Edge which to some extent has functioned for me as a replacement (but unfortunately cannot save PDF tabs).
 
-Thus, I was delighted to know that this extension can help bring that to Google Chrome and Microsoft Edge. The extension is simple and straight-forward to use, no sign-ups, no notes, no tasks, and no other unnecessary features. Focused and effective.
+Thus, I was delighted to know that this extension can help bring that to Google Chrome and Microsoft Edge. The extension is simple and straight-forward to use, no sign-ups, no notes, no tasks, and no other unnecessary features. Focused and effective. Bonus: it can also keep track of *tab groups*. Nice.
 
 Personally, I like using Microsoft Edge (despite privacy concerns) because of the rock solid PDF viewer with its highlight support and seamless integration with Windows (startup boost and downloads management particularly). With the arrival of the sidebar using the browser became much more appealing if you turn off some of the *more annoying* features.
 
