@@ -1,5 +1,5 @@
 ---
-title: "Saving and loading sessions (of tabs) in Google Chrome / Microsoft Edge"
+title: "Saving sessions in my browser"
 subtitle: "Finding a way to replicate the Saved Sessions feature of Vivaldi in Edge"
 description: "How to save and load sessions (of tabs) in Google Chrome or Microsoft Edge."
 author: "Je Sian Keith Herman"
@@ -16,11 +16,15 @@ categories: ["TIL"]
 tags: ["web browser", "extensions", "tools"]
 ---
 
-Saving and loading sessions (of tabs) in Google Chrome / Microsoft Edge
+<!--more-->
 
-Problem: How do I replicate the **[Saved Sessions](https://help.vivaldi.com/desktop/tabs/session-management/)** feature in the Vivaldi browser and make it not a hassle to use?
+{{< admonition type=tip title="Question" open=true >}}
+**Problem**: How do I replicate the **[Saved Sessions](https://help.vivaldi.com/desktop/tabs/session-management/)** feature in the Vivaldi browser and make it not a hassle to use?
+{{< /admonition >}}
 
-Solution: Meet **[Tabox](https://www.tabox.co/)**
+{{< admonition type=success title="Answer" open=true >}}
+**Solution**: Meet the extension **[Tabox](https://www.tabox.co/)**.
+{{< /admonition >}}
 
 I only discovered this extension recently after looking for ways to replicate the useful feature of sessions in Vivaldi.
 
