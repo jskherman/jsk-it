@@ -13,7 +13,7 @@ featuredImage: ""
     # keepStatic: true
     # auto: true
 categories: ["TIL"]
-tags: ["web browser", "extensions", "tools"]
+tags: ["web browser", "tools"]
 ---
 
 <!--more-->
