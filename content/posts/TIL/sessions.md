@@ -1,5 +1,5 @@
 ---
-title: "Saving sessions in my browser"
+title: "How I keep tabs of my sessions in the browser"
 subtitle: "Finding a way to replicate the Saved Sessions feature of Vivaldi in Edge"
 description: "How to save and load sessions (of tabs) in Google Chrome or Microsoft Edge."
 author: "Je Sian Keith Herman"
