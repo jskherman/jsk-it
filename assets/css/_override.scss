@@ -7,13 +7,13 @@
 @import "_custom.css";
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@0;1&family=Fira+Code&family=Fira+Sans:ital@0;1&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@0;1&family=JetBrains+Mono:ital@0;1&family=PT+Sans:ital@0;1&display=swap');
 
 $global-font-family: 'Crimson Pro', Georgia, serif;
 $global-font-size: 1.25rem;
-$header-title-font-family: 'Fira Sans';
+$header-title-font-family: 'PT Sans', Inter, sans-serif;
 $header-title-font-size: 1.3rem;
-$code-font-family: 'Fira Code', 'Source Code Pro', Menlo, Consolas, Monaco;
+$code-font-family: 'JetBrains Mono', 'Fira Code', 'Source Code Pro', Menlo, Consolas, Monaco;
 $code-font-size: 0.7rem;
 
 // Spacing
