@@ -7,7 +7,7 @@
 
 [context.production]
   publish = "public/"
-  command = "hugo"
+  command = "hugo --minify"
 
 
 # URL Redirects
