@@ -39,6 +39,15 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     # title will be shown when you hover on this menu link
     title = "Archive of Blog Posts"
   [[menu.main]]
+    weight = 2
+    identifier = "notes"
+    # pre = "<i class='fas fa-newspaper fa-fw' aria-hidden='true'></i>&nbsp;"
+    post = ""
+    name = "Notes"
+    url = "https://notes.jskherman.com"
+    # title will be shown when you hover on this menu link
+    title = "Working notes"
+  [[menu.main]]
     weight = 3
     identifier = "now"
     # pre = "<i class='fas fa-pager fa-fw' aria-hidden='true'></i>&nbsp;"
