@@ -30,6 +30,4 @@ toc:
 <!-- 
 <iframe width="100%" height="840" src="https://glasp.co/embed?u=FImhgd6ZQWazLTpyJTMNcLCiN6f1&n=6" title="Glasp Profile Embed" frameborder="0"></iframe> -->
 
-## Tweets
-
 <a class="twitter-timeline" href="https://twitter.com/jskherman?ref_src=twsrc%5Etfw">Tweets by jskherman</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
