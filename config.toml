@@ -175,7 +175,7 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
       # title shown in home page (HTML format is supported)
       title = "Je Sian Keith Herman"                        
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "<i>面積比の公式言えますか <br>子供の時の夢は言えますか</i>" # See subtitle.txt
+      subtitle = "<i>What would you do differently if you knew nobody would judge you?</i>" # See subtitle.txt
 
       typeit = true                     # whether to use typeit animation for subtitle
       social = true                     # whether to show social links
