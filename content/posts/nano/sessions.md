@@ -12,7 +12,7 @@ featuredImage: ""
     # enable: true
     # keepStatic: true
     # auto: true
-categories: ["TIL"]
+categories: ["nano"]
 tags: ["web browser", "tools"]
 ---
 
