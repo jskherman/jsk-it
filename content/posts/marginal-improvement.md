@@ -11,8 +11,8 @@ toc:
     enable: true
     # keepStatic: true
     auto: true
-categories: ["Code", "TIL"]
-tags: ["books", "math"]
+categories: ["Code"]
+tags: ["books", "math", "TIL"]
 ---
 
 I got curious as to how the 37% improvement in James Clear's book "Atomic Habits" was calculated. As such, I went about figuring out how and tried to generalize it to different time periods (rather than just a year) and with variable improvement and regression rates for each day.
