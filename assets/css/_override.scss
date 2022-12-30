@@ -7,11 +7,12 @@
 @import "_custom.css";
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@0;1&family=JetBrains+Mono:ital@0;1&family=PT+Sans:ital@0;1&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital@0;1&family=JetBrains+Mono:ital@0;1&family=PT+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@0;1&family=Gentium+Book+Plus:ital@0;1&family=JetBrains+Mono:ital@0;1&display=swap');
 
-$global-font-family: 'Crimson Pro', Georgia, serif;
-$global-font-size: 1.25rem;
-$header-title-font-family: 'PT Sans', Inter, sans-serif;
+$global-font-family: 'Atkinson Hyperlegible', 'PT Sans', Inter, sans-serif;
+$global-font-size: 1.1rem;
+$header-title-font-family: 'Gentium Book Plus', 'Crimson Pro', Georgia, serif;
 $header-title-font-size: 1.3rem;
 $code-font-family: 'JetBrains Mono', 'Fira Code', 'Source Code Pro', Menlo, Consolas, Monaco;
 $code-font-size: 0.7rem;
