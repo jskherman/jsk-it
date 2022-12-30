@@ -59,7 +59,7 @@ Now set the path to where the webdriver executable is as well as the URL to the 
 ``` python
 # Set the path to where the webdriver executuble is
 # For me it's the following:
-path = ("C:\\Users\\<UsernameHerman\\AppData\\Local\\Programs\\Python" +
+path = ("C:\\Users\\<Username>\\AppData\\Local\\Programs\\Python" +
          "\\Python39\\Scripts\\msedgedriver.exe")
 
 # Designate the url to be scraped to a variable
