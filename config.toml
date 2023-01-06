@@ -22,7 +22,7 @@ paginate = 10                       # default amount of posts in each pages
 enableEmoji = true                  # whether to use emoji code
 # enableGitInfo = true                # whether to use git commit log
 # enableRobotsTXT = true              # whether to use robots.txt
-googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
+# googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
 
 
 # Menu config
@@ -38,15 +38,15 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = "Archive of Blog Posts"
-  [[menu.main]]
-    weight = 2
-    identifier = "notes"
-    # pre = "<i class='fas fa-newspaper fa-fw' aria-hidden='true'></i>&nbsp;"
-    post = ""
-    name = "Notes"
-    url = "https://notes.jskherman.com"
-    # title will be shown when you hover on this menu link
-    title = "Working notes"
+  # [[menu.main]]
+  #   weight = 2
+  #   identifier = "notes"
+  #   # pre = "<i class='fas fa-newspaper fa-fw' aria-hidden='true'></i>&nbsp;"
+  #   post = ""
+  #   name = "Notes"
+  #   url = "https://notes.jskherman.com"
+  #   # title will be shown when you hover on this menu link
+  #   title = "Working notes"
   [[menu.main]]
     weight = 3
     identifier = "now"
@@ -499,20 +499,22 @@ googleAnalytics = ""                # google analytics code [UA-XXXXXXXX-X]
 
   # Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
-    [params.analytics.google]
-      id = ""
-      # whether to anonymize IP
-      anonymizeIP = true
-    # Fathom Analytics
-    [params.analytics.fathom]
-      id = ""
-      # server url for your tracker if you're self hosting
-      server = ""
-    # Plausible Analytics
-    [params.analytics.plausible]
-      dataDomain = ""
+    # [params.analytics.google]
+    #   id = ""
+    #   # whether to anonymize IP
+    #   anonymizeIP = true
+    # # Fathom Analytics
+    # [params.analytics.fathom]
+    #   id = ""
+    #   # server url for your tracker if you're self hosting
+    #   server = ""
+    # # Plausible Analytics
+    # [params.analytics.plausible]
+    #   dataDomain = ""
+    [params.analytics.goatcounter]
+      code = "https://analytics.jskherman.com/count"
 
   # Cookie consent config
   [params.cookieconsent]
